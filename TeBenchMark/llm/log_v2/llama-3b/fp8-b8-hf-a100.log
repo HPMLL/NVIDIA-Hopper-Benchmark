@@ -1,0 +1,207 @@
+You are using the default legacy behaviour of the <class 'transformers.models.llama.tokenization_llama.LlamaTokenizer'>. This is expected, and simply means that the `legacy` (previous) behavior will be used so nothing changes for you. If you want to use the new behaviour, set `legacy=False`. This should only be set if you understand what it means, and thoroughly read the reason why this was added as explained in https://github.com/huggingface/transformers/pull/24565
+Token indices sequence length is longer than the specified maximum sequence length for this model (2829 > 2048). Running this sequence through the model will result in indexing errors
+Namespace(backend='hf', dtype='fp8', dataset='../ShareGPT_V3_unfiltered_cleaned_split.json', model='/workspace/dudayou/hf-models/hf-llama-2-3b/', tokenizer='/workspace/dudayou/hf-models/hf-llama-2-3b/', quantization=None, tensor_parallel_size=1, n=1, use_beam_search=False, num_prompts=504, seed=0, hf_max_batch_size=8, trust_remote_code=False, output_len=128, input_len=128)
+tokenizering ...
+finish tokenize !
+loading model /workspace/dudayou/hf-models/hf-llama-2-3b/
+convert to te.linear
+convert to te.linear
+convert to te.linear
+convert to te.linear
+convert to te.linear
+convert to te.linear
+convert to te.linear
+convert to te.linear
+convert to te.linear
+convert to te.linear
+convert to te.linear
+convert to te.linear
+convert to te.linear
+convert to te.linear
+convert to te.linear
+convert to te.linear
+convert to te.linear
+convert to te.linear
+convert to te.linear
+convert to te.linear
+convert to te.linear
+convert to te.linear
+convert to te.linear
+convert to te.linear
+convert to te.linear
+convert to te.linear
+convert to te.linear
+convert to te.linear
+convert to te.linear
+convert to te.linear
+convert to te.linear
+convert to te.linear
+convert to te.linear
+convert to te.linear
+convert to te.linear
+convert to te.linear
+convert to te.linear
+convert to te.linear
+convert to te.linear
+convert to te.linear
+convert to te.linear
+convert to te.linear
+convert to te.linear
+convert to te.linear
+convert to te.linear
+convert to te.linear
+convert to te.linear
+convert to te.linear
+convert to te.linear
+convert to te.linear
+convert to te.linear
+convert to te.linear
+convert to te.linear
+convert to te.linear
+convert to te.linear
+convert to te.linear
+convert to te.linear
+convert to te.linear
+convert to te.linear
+convert to te.linear
+convert to te.linear
+convert to te.linear
+convert to te.linear
+convert to te.linear
+convert to te.linear
+convert to te.linear
+convert to te.linear
+convert to te.linear
+convert to te.linear
+convert to te.linear
+convert to te.linear
+convert to te.linear
+convert to te.linear
+convert to te.linear
+convert to te.linear
+convert to te.linear
+convert to te.linear
+convert to te.linear
+convert to te.linear
+convert to te.linear
+convert to te.linear
+convert to te.linear
+convert to te.linear
+convert to te.linear
+convert to te.linear
+convert to te.linear
+convert to te.linear
+convert to te.linear
+convert to te.linear
+convert to te.linear
+convert to te.linear
+convert to te.linear
+convert to te.linear
+convert to te.linear
+convert to te.linear
+convert to te.linear
+convert to te.linear
+convert to te.linear
+convert to te.linear
+convert to te.linear
+convert to te.linear
+convert to te.linear
+convert to te.linear
+convert to te.linear
+convert to te.linear
+convert to te.linear
+convert to te.linear
+convert to te.linear
+convert to te.linear
+convert to te.linear
+convert to te.linear
+convert to te.linear
+convert to te.linear
+convert to te.linear
+convert to te.linear
+convert to te.linear
+convert to te.linear
+convert to te.linear
+convert to te.linear
+convert to te.linear
+convert to te.linear
+convert to te.linear
+convert to te.linear
+convert to te.linear
+convert to te.linear
+convert to te.linear
+convert to te.linear
+convert to te.linear
+convert to te.linear
+convert to te.linear
+convert to te.linear
+convert to te.linear
+convert to te.linear
+convert to te.linear
+convert to te.linear
+convert to te.linear
+convert to te.linear
+convert to te.linear
+convert to te.linear
+convert to te.linear
+convert to te.linear
+convert to te.linear
+convert to te.linear
+convert to te.linear
+convert to te.linear
+convert to te.linear
+convert to te.linear
+convert to te.linear
+convert to te.linear
+convert to te.linear
+convert to te.linear
+convert to te.linear
+convert to te.linear
+convert to te.linear
+convert to te.linear
+convert to te.linear
+convert to te.linear
+convert to te.linear
+convert to te.linear
+convert to te.linear
+convert to te.linear
+convert to te.linear
+convert to te.linear
+convert to te.linear
+convert to te.linear
+convert to te.linear
+convert to te.linear
+convert to te.linear
+convert to te.linear
+convert to te.linear
+convert to te.linear
+convert to te.linear
+convert to te.linear
+convert to te.linear
+convert to te.linear
+convert to te.linear
+convert to te.linear
+convert to te.linear
+convert to te.linear
+convert to te.linear
+convert to te.linear
+convert to te.linear
+convert to te.linear
+model created!! torch.bfloat16 cuda:0
+  0%|          | 0/504 [00:00<?, ?it/s]Traceback (most recent call last):
+  File "/workspace/Hopper-Microbenchmark/TeBenchMark/llm/test.py", line 267, in <module>
+    main(args)
+  File "/workspace/Hopper-Microbenchmark/TeBenchMark/llm/test.py", line 195, in main
+    elapsed_time = run_hf(requests, args.model, tokenizer, args.n,
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/Hopper-Microbenchmark/TeBenchMark/llm/test.py", line 162, in run_hf
+    with te.fp8_autocast(enabled= data_type == "fp8"):
+  File "/workspace/software/anaconda3/lib/python3.11/contextlib.py", line 137, in __enter__
+    return next(self.gen)
+           ^^^^^^^^^^^^^^
+  File "/workspace/software/anaconda3/lib/python3.11/site-packages/transformer_engine/pytorch/fp8.py", line 539, in fp8_autocast
+    FP8GlobalStateManager.fp8_autocast_enter(
+  File "/workspace/software/anaconda3/lib/python3.11/site-packages/transformer_engine/pytorch/fp8.py", line 394, in fp8_autocast_enter
+    assert fp8_available, reason_for_no_fp8
+AssertionError: Device compute capability 8.9 or higher required for FP8 execution.
+  0%|          | 0/504 [00:00<?, ?it/s]

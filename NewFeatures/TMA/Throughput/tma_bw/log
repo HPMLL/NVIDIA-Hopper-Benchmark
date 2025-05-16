@@ -1,0 +1,72 @@
+Block size = 114, Load size = 1 KB
+Total time = 17.955999 ms, transfer size = 4294967296 bytes
+Throughput: 222.766769 GB/s
+Block size = 228, Load size = 1 KB
+Total time = 9.148160 ms, transfer size = 4294967296 bytes
+Throughput: 437.246399 GB/s
+Block size = 342, Load size = 1 KB
+Total time = 6.248832 ms, transfer size = 4294967296 bytes
+Throughput: 640.119629 GB/s
+Block size = 456, Load size = 1 KB
+Total time = 4.817376 ms, transfer size = 4294967296 bytes
+Throughput: 830.327576 GB/s
+Block size = 114, Load size = 2 KB
+Total time = 9.470976 ms, transfer size = 4294967296 bytes
+Throughput: 422.342957 GB/s
+Block size = 228, Load size = 2 KB
+Total time = 4.991872 ms, transfer size = 4294967296 bytes
+Throughput: 801.302612 GB/s
+Block size = 342, Load size = 2 KB
+Total time = 3.563712 ms, transfer size = 4294967296 bytes
+Throughput: 1122.425171 GB/s
+Block size = 456, Load size = 2 KB
+Total time = 2.898976 ms, transfer size = 4294967296 bytes
+Throughput: 1379.797607 GB/s
+Block size = 114, Load size = 8 KB
+Total time = 3.254720 ms, transfer size = 4294967296 bytes
+Throughput: 1228.984375 GB/s
+Block size = 228, Load size = 8 KB
+Total time = 2.313632 ms, transfer size = 4294967296 bytes
+Throughput: 1728.883423 GB/s
+Block size = 342, Load size = 8 KB
+Total time = 2.208704 ms, transfer size = 4294967296 bytes
+Throughput: 1811.016846 GB/s
+Block size = 456, Load size = 8 KB
+Total time = 2.218560 ms, transfer size = 4294967296 bytes
+Throughput: 1802.971191 GB/s
+Block size = 114, Load size = 12 KB
+Total time = 2.648480 ms, transfer size = 4294967296 bytes
+Throughput: 1510.300293 GB/s
+Block size = 228, Load size = 12 KB
+Total time = 2.214848 ms, transfer size = 4294967296 bytes
+Throughput: 1805.992920 GB/s
+Block size = 342, Load size = 12 KB
+Total time = 2.207328 ms, transfer size = 4294967296 bytes
+Throughput: 1812.145630 GB/s
+Block size = 456, Load size = 12 KB
+Total time = 2.214720 ms, transfer size = 4294967296 bytes
+Throughput: 1806.097412 GB/s
+Block size = 114, Load size = 16 KB
+Total time = 2.342304 ms, transfer size = 4294967296 bytes
+Throughput: 1707.720215 GB/s
+Block size = 228, Load size = 16 KB
+Total time = 2.213856 ms, transfer size = 4294967296 bytes
+Throughput: 1806.802246 GB/s
+Block size = 342, Load size = 16 KB
+Total time = 2.198080 ms, transfer size = 4294967296 bytes
+Throughput: 1819.769897 GB/s
+Block size = 456, Load size = 16 KB
+Total time = 2.190496 ms, transfer size = 4294967296 bytes
+Throughput: 1826.070435 GB/s
+Block size = 114, Load size = 4 KB
+Total time = 5.267648 ms, transfer size = 4294967296 bytes
+Throughput: 759.352173 GB/s
+Block size = 228, Load size = 4 KB
+Total time = 3.047776 ms, transfer size = 4294967296 bytes
+Throughput: 1312.432495 GB/s
+Block size = 342, Load size = 4 KB
+Total time = 2.472448 ms, transfer size = 4294967296 bytes
+Throughput: 1617.829712 GB/s
+Block size = 456, Load size = 4 KB
+Total time = 2.288256 ms, transfer size = 4294967296 bytes
+Throughput: 1748.056274 GB/s

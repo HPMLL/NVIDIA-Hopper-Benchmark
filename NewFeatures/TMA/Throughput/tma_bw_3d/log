@@ -1,0 +1,313 @@
+
+Block size = 114, X = 8, Y = 8, Z = 4 Load size = 1 KB
+cuTensorMapEncodeTiled returned CUresult: 0
+
+Total time = 23.495745 ms, transfer size = 4294967296 bytes
+Throughput: 170.243591 GB/s
+
+
+Block size = 228, X = 8, Y = 8, Z = 4 Load size = 1 KB
+cuTensorMapEncodeTiled returned CUresult: 0
+
+Total time = 12.176768 ms, transfer size = 4294967296 bytes
+Throughput: 328.494385 GB/s
+
+
+Block size = 342, X = 8, Y = 8, Z = 4 Load size = 1 KB
+cuTensorMapEncodeTiled returned CUresult: 0
+
+Total time = 8.414624 ms, transfer size = 4294967296 bytes
+Throughput: 475.362885 GB/s
+
+
+Block size = 456, X = 8, Y = 8, Z = 4 Load size = 1 KB
+cuTensorMapEncodeTiled returned CUresult: 0
+
+Total time = 6.487264 ms, transfer size = 4294967296 bytes
+Throughput: 616.592712 GB/s
+
+
+Block size = 114, X = 8, Y = 8, Z = 8 Load size = 2 KB
+cuTensorMapEncodeTiled returned CUresult: 0
+
+Total time = 12.913504 ms, transfer size = 4294967296 bytes
+Throughput: 309.753265 GB/s
+
+
+Block size = 228, X = 8, Y = 8, Z = 8 Load size = 2 KB
+cuTensorMapEncodeTiled returned CUresult: 0
+
+Total time = 6.950624 ms, transfer size = 4294967296 bytes
+Throughput: 575.487915 GB/s
+
+
+Block size = 342, X = 8, Y = 8, Z = 8 Load size = 2 KB
+cuTensorMapEncodeTiled returned CUresult: 0
+
+Total time = 5.102272 ms, transfer size = 4294967296 bytes
+Throughput: 783.964478 GB/s
+
+
+Block size = 456, X = 8, Y = 8, Z = 8 Load size = 2 KB
+cuTensorMapEncodeTiled returned CUresult: 0
+
+Total time = 3.959392 ms, transfer size = 4294967296 bytes
+Throughput: 1010.256042 GB/s
+
+
+Block size = 114, X = 16, Y = 8, Z = 8 Load size = 4 KB
+cuTensorMapEncodeTiled returned CUresult: 0
+
+Total time = 6.956512 ms, transfer size = 4294967296 bytes
+Throughput: 575.000793 GB/s
+
+
+Block size = 228, X = 16, Y = 8, Z = 8 Load size = 4 KB
+cuTensorMapEncodeTiled returned CUresult: 0
+
+Total time = 3.874368 ms, transfer size = 4294967296 bytes
+Throughput: 1032.426392 GB/s
+
+
+Block size = 342, X = 16, Y = 8, Z = 8 Load size = 4 KB
+cuTensorMapEncodeTiled returned CUresult: 0
+
+Total time = 3.017536 ms, transfer size = 4294967296 bytes
+Throughput: 1325.584839 GB/s
+
+
+Block size = 456, X = 16, Y = 8, Z = 8 Load size = 4 KB
+cuTensorMapEncodeTiled returned CUresult: 0
+
+Total time = 2.583200 ms, transfer size = 4294967296 bytes
+Throughput: 1548.467041 GB/s
+
+
+Block size = 114, X = 16, Y = 16, Z = 8 Load size = 8 KB
+cuTensorMapEncodeTiled returned CUresult: 0
+
+Total time = 4.002688 ms, transfer size = 4294967296 bytes
+Throughput: 999.328430 GB/s
+
+
+Block size = 228, X = 16, Y = 16, Z = 8 Load size = 8 KB
+cuTensorMapEncodeTiled returned CUresult: 0
+
+Total time = 2.645664 ms, transfer size = 4294967296 bytes
+Throughput: 1511.907837 GB/s
+
+
+Block size = 342, X = 16, Y = 16, Z = 8 Load size = 8 KB
+cuTensorMapEncodeTiled returned CUresult: 0
+
+Total time = 2.436064 ms, transfer size = 4294967296 bytes
+Throughput: 1641.993042 GB/s
+
+
+Block size = 456, X = 16, Y = 16, Z = 8 Load size = 8 KB
+cuTensorMapEncodeTiled returned CUresult: 0
+
+Total time = 2.251232 ms, transfer size = 4294967296 bytes
+Throughput: 1776.805054 GB/s
+
+
+Block size = 114, X = 16, Y = 16, Z = 12 Load size = 12 KB
+cuTensorMapEncodeTiled returned CUresult: 0
+
+Total time = 3.166304 ms, transfer size = 4294967296 bytes
+Throughput: 1263.302490 GB/s
+
+
+Block size = 228, X = 16, Y = 16, Z = 12 Load size = 12 KB
+cuTensorMapEncodeTiled returned CUresult: 0
+
+Total time = 2.335424 ms, transfer size = 4294967296 bytes
+Throughput: 1712.751221 GB/s
+
+
+Block size = 342, X = 16, Y = 16, Z = 12 Load size = 12 KB
+cuTensorMapEncodeTiled returned CUresult: 0
+
+Total time = 2.377120 ms, transfer size = 4294967296 bytes
+Throughput: 1682.708374 GB/s
+
+
+Block size = 456, X = 16, Y = 16, Z = 12 Load size = 12 KB
+cuTensorMapEncodeTiled returned CUresult: 0
+
+Total time = 2.797856 ms, transfer size = 4294967296 bytes
+Throughput: 1429.666138 GB/s
+
+
+Block size = 114, X = 16, Y = 16, Z = 16 Load size = 16 KB
+cuTensorMapEncodeTiled returned CUresult: 0
+
+Total time = 2.727424 ms, transfer size = 4294967296 bytes
+Throughput: 1466.585449 GB/s
+
+
+Block size = 228, X = 16, Y = 16, Z = 16 Load size = 16 KB
+cuTensorMapEncodeTiled returned CUresult: 0
+
+Total time = 2.248544 ms, transfer size = 4294967296 bytes
+Throughput: 1778.928955 GB/s
+
+
+Block size = 342, X = 16, Y = 16, Z = 16 Load size = 16 KB
+cuTensorMapEncodeTiled returned CUresult: 0
+
+Total time = 2.488640 ms, transfer size = 4294967296 bytes
+Throughput: 1607.303467 GB/s
+
+
+Block size = 456, X = 16, Y = 16, Z = 16 Load size = 16 KB
+cuTensorMapEncodeTiled returned CUresult: 0
+
+Total time = 2.897536 ms, transfer size = 4294967296 bytes
+Throughput: 1380.483154 GB/s
+
+
+
+
+
+
+
+
+Block size = 114, X = 16, Y = 16, Z = 16 Load size = 16 KB
+cuTensorMapEncodeTiled returned CUresult: 0
+
+Total time = 2.773696 ms, transfer size = 4294967296 bytes
+Throughput: 1442.119141 GB/s
+
+
+Block size = 228, X = 16, Y = 16, Z = 16 Load size = 16 KB
+cuTensorMapEncodeTiled returned CUresult: 0
+
+Total time = 2.257632 ms, transfer size = 4294967296 bytes
+Throughput: 1771.767822 GB/s
+
+
+Block size = 342, X = 16, Y = 16, Z = 16 Load size = 16 KB
+cuTensorMapEncodeTiled returned CUresult: 0
+
+Total time = 2.571136 ms, transfer size = 4294967296 bytes
+Throughput: 1555.732544 GB/s
+
+
+Block size = 456, X = 16, Y = 16, Z = 16 Load size = 16 KB
+cuTensorMapEncodeTiled returned CUresult: 0
+
+Total time = 3.021696 ms, transfer size = 4294967296 bytes
+Throughput: 1323.759888 GB/s
+
+
+Block size = 114, X = 64, Y = 64, Z = 1 Load size = 16 KB
+cuTensorMapEncodeTiled returned CUresult: 0
+
+Total time = 2.369184 ms, transfer size = 4294967296 bytes
+Throughput: 1688.344971 GB/s
+
+
+Block size = 228, X = 64, Y = 64, Z = 1 Load size = 16 KB
+cuTensorMapEncodeTiled returned CUresult: 0
+
+Total time = 2.221024 ms, transfer size = 4294967296 bytes
+Throughput: 1800.970947 GB/s
+
+
+Block size = 342, X = 64, Y = 64, Z = 1 Load size = 16 KB
+cuTensorMapEncodeTiled returned CUresult: 0
+
+Total time = 2.209792 ms, transfer size = 4294967296 bytes
+Throughput: 1810.125244 GB/s
+
+
+Block size = 456, X = 64, Y = 64, Z = 1 Load size = 16 KB
+cuTensorMapEncodeTiled returned CUresult: 0
+
+Total time = 2.195232 ms, transfer size = 4294967296 bytes
+Throughput: 1822.130981 GB/s
+
+
+Block size = 114, X = 256, Y = 16, Z = 1 Load size = 16 KB
+cuTensorMapEncodeTiled returned CUresult: 0
+
+Total time = 2.374496 ms, transfer size = 4294967296 bytes
+Throughput: 1684.567993 GB/s
+
+
+Block size = 228, X = 256, Y = 16, Z = 1 Load size = 16 KB
+cuTensorMapEncodeTiled returned CUresult: 0
+
+Total time = 2.214816 ms, transfer size = 4294967296 bytes
+Throughput: 1806.018921 GB/s
+
+
+Block size = 342, X = 256, Y = 16, Z = 1 Load size = 16 KB
+cuTensorMapEncodeTiled returned CUresult: 0
+
+Total time = 2.199264 ms, transfer size = 4294967296 bytes
+Throughput: 1818.790283 GB/s
+
+
+Block size = 456, X = 256, Y = 16, Z = 1 Load size = 16 KB
+cuTensorMapEncodeTiled returned CUresult: 0
+
+Total time = 2.186016 ms, transfer size = 4294967296 bytes
+Throughput: 1829.812622 GB/s
+
+
+Block size = 114, X = 16, Y = 256, Z = 1 Load size = 16 KB
+cuTensorMapEncodeTiled returned CUresult: 0
+
+Total time = 2.856320 ms, transfer size = 4294967296 bytes
+Throughput: 1400.403320 GB/s
+
+
+Block size = 228, X = 16, Y = 256, Z = 1 Load size = 16 KB
+cuTensorMapEncodeTiled returned CUresult: 0
+
+Total time = 2.266848 ms, transfer size = 4294967296 bytes
+Throughput: 1764.564697 GB/s
+
+
+Block size = 342, X = 16, Y = 256, Z = 1 Load size = 16 KB
+cuTensorMapEncodeTiled returned CUresult: 0
+
+Total time = 2.674016 ms, transfer size = 4294967296 bytes
+Throughput: 1495.877441 GB/s
+
+
+Block size = 456, X = 16, Y = 256, Z = 1 Load size = 16 KB
+cuTensorMapEncodeTiled returned CUresult: 0
+
+Total time = 2.801952 ms, transfer size = 4294967296 bytes
+Throughput: 1427.576172 GB/s
+
+Block size = 114, X = 4, Y = 4, Z = 256, Load size = 16 KB
+cuTensorMapEncodeTiled returned CUresult: 0
+
+Total time = 4.082080 ms, transfer size = 4294967296 bytes
+Throughput: 979.892639 GB/s
+
+
+Block size = 228, X = 4, Y = 4, Z = 256, Load size = 16 KB
+cuTensorMapEncodeTiled returned CUresult: 0
+
+Total time = 5.746688 ms, transfer size = 4294967296 bytes
+Throughput: 696.053101 GB/s
+
+
+Block size = 342, X = 4, Y = 4, Z = 256, Load size = 16 KB
+cuTensorMapEncodeTiled returned CUresult: 0
+
+Total time = 6.121248 ms, transfer size = 4294967296 bytes
+Throughput: 653.461548 GB/s
+
+
+Block size = 456, X = 4, Y = 4, Z = 256, Load size = 16 KB
+cuTensorMapEncodeTiled returned CUresult: 0
+
+Total time = 6.641472 ms, transfer size = 4294967296 bytes
+Throughput: 602.276123 GB/s
+

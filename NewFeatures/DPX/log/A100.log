@@ -1,0 +1,252 @@
+
+running ./viaddmax_s16x2_bw microbenchmark
+Instructions per SM = 7.993292 (instructions/clk/SM)
+Total Clk number = 524728 
+/////////////////////////////////
+
+
+running ./viaddmax_s16x2_global_bw microbenchmark
+DPX throughput = 856.033203 (instructions/cycle)
+Total Clk number = 1058334 
+/////////////////////////////////
+
+
+running ./viaddmax_s16x2_lat microbenchmark
+DPX latency = 19.245117 (clk)
+Total Clk number = 19707 
+/////////////////////////////////
+
+
+running ./viaddmax_s16x2_relu_bw microbenchmark
+Instructions per SM = 4.544282 (instructions/clk/SM)
+Total Clk number = 922985 
+/////////////////////////////////
+
+
+running ./viaddmax_s16x2_relu_global_bw microbenchmark
+DPX throughput = 489.066528 (instructions/cycle)
+Total Clk number = 1852446 
+/////////////////////////////////
+
+
+running ./viaddmax_s16x2_relu_lat microbenchmark
+DPX latency = 32.060547 (clk)
+Total Clk number = 32830 
+/////////////////////////////////
+
+
+running ./viaddmax_s32_bw microbenchmark
+Instructions per SM = 58.353100 (instructions/clk/SM)
+Total Clk number = 71878 
+/////////////////////////////////
+
+
+running ./viaddmax_s32_global_bw microbenchmark
+DPX throughput = 6338.104492 (instructions/cycle)
+Total Clk number = 142940 
+/////////////////////////////////
+
+
+running ./viaddmax_s32_lat microbenchmark
+DPX latency = 10.084961 (clk)
+Total Clk number = 10327 
+/////////////////////////////////
+
+
+running ./viaddmax_s32_relu_bw microbenchmark
+Instructions per SM = 30.239897 (instructions/clk/SM)
+Total Clk number = 138701 
+/////////////////////////////////
+
+
+running ./viaddmax_s32_relu_global_bw microbenchmark
+DPX throughput = 3251.151855 (instructions/cycle)
+Total Clk number = 278661 
+/////////////////////////////////
+
+
+running ./viaddmax_s32_relu_lat microbenchmark
+DPX latency = 14.213867 (clk)
+Total Clk number = 14555 
+/////////////////////////////////
+
+
+running ./viaddmax_u32_bw microbenchmark
+Instructions per SM = 58.228344 (instructions/clk/SM)
+Total Clk number = 72032 
+/////////////////////////////////
+
+
+running ./viaddmax_u32_global_bw microbenchmark
+DPX throughput = 6338.104492 (instructions/cycle)
+Total Clk number = 142940 
+/////////////////////////////////
+
+
+running ./viaddmax_u32_lat microbenchmark
+DPX latency = 10.084961 (clk)
+Total Clk number = 10327 
+/////////////////////////////////
+
+
+running ./viaddmin_s32_bw microbenchmark
+Instructions per SM = 58.278503 (instructions/clk/SM)
+Total Clk number = 71970 
+/////////////////////////////////
+
+
+running ./viaddmin_s32_global_bw microbenchmark
+DPX throughput = 6402.779297 (instructions/cycle)
+Total Clk number = 141496 
+/////////////////////////////////
+
+
+running ./viaddmin_s32_lat microbenchmark
+DPX latency = 10.084961 (clk)
+Total Clk number = 10327 
+/////////////////////////////////
+
+
+running ./vibmax_s16x2_bw microbenchmark
+Instructions per SM = 42.155926 (instructions/clk/SM)
+Total Clk number = 99495 
+/////////////////////////////////
+
+
+running ./vibmax_s16x2_global_bw microbenchmark
+DPX throughput = 4514.189941 (instructions/cycle)
+Total Clk number = 200693 
+/////////////////////////////////
+
+
+running ./vibmax_s16x2_lat microbenchmark
+DPX latency = 1.028320 (clk)
+Total Clk number = 1053 
+/////////////////////////////////
+
+
+running ./vibmax_s32_bw microbenchmark
+Instructions per SM = 956.075684 (instructions/clk/SM)
+Total Clk number = 4387 
+/////////////////////////////////
+
+
+running ./vibmax_s32_global_bw microbenchmark
+DPX throughput = 89638.906250 (instructions/cycle)
+Total Clk number = 10106 
+/////////////////////////////////
+
+
+running ./vibmax_s32_lat microbenchmark
+DPX latency = 0.029297 (clk)
+Total Clk number = 30 
+/////////////////////////////////
+
+
+running ./vimax3_s16x2_bw microbenchmark
+Instructions per SM = 10.551602 (instructions/clk/SM)
+Total Clk number = 397504 
+/////////////////////////////////
+
+
+running ./vimax3_s16x2_global_bw microbenchmark
+DPX throughput = 1130.580811 (instructions/cycle)
+Total Clk number = 801331 
+/////////////////////////////////
+
+
+running ./vimax3_s16x2_lat microbenchmark
+DPX latency = 11.159180 (clk)
+Total Clk number = 11427 
+/////////////////////////////////
+
+
+running ./vimax3_s16x2_relu_bw microbenchmark
+Instructions per SM = 5.410372 (instructions/clk/SM)
+Total Clk number = 775234 
+/////////////////////////////////
+
+
+running ./vimax3_s16x2_relu_global_bw microbenchmark
+DPX throughput = 583.152771 (instructions/cycle)
+Total Clk number = 1553571 
+/////////////////////////////////
+
+
+running ./vimax3_s16x2_relu_lat microbenchmark
+DPX latency = 24.803711 (clk)
+Total Clk number = 25399 
+/////////////////////////////////
+
+
+running ./vimax3_s32_bw microbenchmark
+Instructions per SM = 31.649632 (instructions/clk/SM)
+Total Clk number = 132523 
+/////////////////////////////////
+
+
+running ./vimax3_s32_global_bw microbenchmark
+DPX throughput = 3410.175781 (instructions/cycle)
+Total Clk number = 265666 
+/////////////////////////////////
+
+
+running ./vimax3_s32_lat microbenchmark
+DPX latency = 8.091797 (clk)
+Total Clk number = 8286 
+/////////////////////////////////
+
+
+running ./vimax3_s32_relu_bw microbenchmark
+Instructions per SM = 22.470287 (instructions/clk/SM)
+Total Clk number = 186660 
+/////////////////////////////////
+
+
+running ./vimax3_s32_relu_global_bw microbenchmark
+DPX throughput = 2404.108643 (instructions/cycle)
+Total Clk number = 376842 
+/////////////////////////////////
+
+
+running ./vimax3_s32_relu_lat microbenchmark
+DPX latency = 12.134766 (clk)
+Total Clk number = 12426 
+/////////////////////////////////
+
+
+running ./vimax_s16x2_relu_bw microbenchmark
+Instructions per SM = 6.517904 (instructions/clk/SM)
+Total Clk number = 643505 
+/////////////////////////////////
+
+
+running ./vimax_s16x2_relu_global_bw microbenchmark
+DPX throughput = 701.870667 (instructions/cycle)
+Total Clk number = 1290792 
+/////////////////////////////////
+
+
+running ./vimax_s16x2_relu_lat microbenchmark
+DPX latency = 18.509766 (clk)
+Total Clk number = 18954 
+/////////////////////////////////
+
+
+running ./vimax_s32_relu_bw microbenchmark
+Instructions per SM = 34.995987 (instructions/clk/SM)
+Total Clk number = 119851 
+/////////////////////////////////
+
+
+running ./vimax_s32_relu_global_bw microbenchmark
+DPX throughput = 3757.319336 (instructions/cycle)
+Total Clk number = 241121 
+/////////////////////////////////
+
+
+running ./vimax_s32_relu_lat microbenchmark
+DPX latency = 8.095703 (clk)
+Total Clk number = 8290 
+/////////////////////////////////
+
