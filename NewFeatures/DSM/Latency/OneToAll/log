@@ -2,13 +2,13 @@ Measure latency of SM to SM for 4096 bytes...
 
 Benchmarking time...
 
-Cluster size: 2 bytes...
+Cluster size: 2  ...
 Rank  0 in SM 110 -> rank  0 in SM 110: 33
 Rank  0 in SM 110 -> rank  1 in SM 111: 181
 Rank  1 in SM 111 -> rank  0 in SM 110: 181
 Rank  1 in SM 111 -> rank  1 in SM 111: 33
 
-Cluster size: 3 bytes...
+Cluster size: 3  ...
 Rank  0 in SM   0 -> rank  0 in SM   0: 33
 Rank  0 in SM   0 -> rank  1 in SM   1: 207
 Rank  0 in SM   0 -> rank  2 in SM  14: 206
@@ -19,7 +19,7 @@ Rank  2 in SM  14 -> rank  0 in SM   0: 206
 Rank  2 in SM  14 -> rank  1 in SM   1: 203
 Rank  2 in SM  14 -> rank  2 in SM  14: 33
 
-Cluster size: 4 bytes...
+Cluster size: 4  ...
 Rank  0 in SM   0 -> rank  0 in SM   0: 33
 Rank  0 in SM   0 -> rank  1 in SM   1: 207
 Rank  0 in SM   0 -> rank  2 in SM  14: 206
@@ -37,7 +37,7 @@ Rank  3 in SM  15 -> rank  1 in SM   1: 202
 Rank  3 in SM  15 -> rank  2 in SM  14: 201
 Rank  3 in SM  15 -> rank  3 in SM  15: 33
 
-Cluster size: 5 bytes...
+Cluster size: 5  ...
 Rank  0 in SM   0 -> rank  0 in SM   0: 33
 Rank  0 in SM   0 -> rank  1 in SM   1: 207
 Rank  0 in SM   0 -> rank  2 in SM  14: 205
@@ -64,7 +64,7 @@ Rank  4 in SM  28 -> rank  2 in SM  14: 205
 Rank  4 in SM  28 -> rank  3 in SM  15: 206
 Rank  4 in SM  28 -> rank  4 in SM  28: 33
 
-Cluster size: 6 bytes...
+Cluster size: 6  ...
 Rank  0 in SM   0 -> rank  0 in SM   0: 33
 Rank  0 in SM   0 -> rank  1 in SM   1: 207
 Rank  0 in SM   0 -> rank  2 in SM  14: 206
@@ -102,7 +102,7 @@ Rank  5 in SM  29 -> rank  3 in SM  15: 208
 Rank  5 in SM  29 -> rank  4 in SM  28: 213
 Rank  5 in SM  29 -> rank  5 in SM  29: 33
 
-Cluster size: 7 bytes...
+Cluster size: 7  ...
 Rank  0 in SM   0 -> rank  0 in SM   0: 33
 Rank  0 in SM   0 -> rank  1 in SM   1: 207
 Rank  0 in SM   0 -> rank  2 in SM  14: 205
@@ -153,7 +153,7 @@ Rank  6 in SM  42 -> rank  4 in SM  28: 200
 Rank  6 in SM  42 -> rank  5 in SM  29: 203
 Rank  6 in SM  42 -> rank  6 in SM  42: 33
 
-Cluster size: 8 bytes...
+Cluster size: 8  ...
 Rank  0 in SM   0 -> rank  0 in SM   0: 33
 Rank  0 in SM   0 -> rank  1 in SM   1: 207
 Rank  0 in SM   0 -> rank  2 in SM  14: 205
@@ -219,7 +219,7 @@ Rank  7 in SM  43 -> rank  5 in SM  29: 203
 Rank  7 in SM  43 -> rank  6 in SM  42: 190
 Rank  7 in SM  43 -> rank  7 in SM  43: 33
 
-Cluster size: 9 bytes...
+Cluster size: 9  ...
 Rank  0 in SM   0 -> rank  0 in SM   0: 33
 Rank  0 in SM   0 -> rank  1 in SM   1: 207
 Rank  0 in SM   0 -> rank  2 in SM  14: 206
@@ -302,7 +302,7 @@ Rank  8 in SM  56 -> rank  6 in SM  42: 195
 Rank  8 in SM  56 -> rank  7 in SM  43: 195
 Rank  8 in SM  56 -> rank  8 in SM  56: 33
 
-Cluster size: 10 bytes...
+Cluster size: 10  ...
 Rank  0 in SM   0 -> rank  0 in SM   0: 33
 Rank  0 in SM   0 -> rank  1 in SM   1: 207
 Rank  0 in SM   0 -> rank  2 in SM  14: 205
@@ -404,7 +404,7 @@ Rank  9 in SM  57 -> rank  7 in SM  43: 198
 Rank  9 in SM  57 -> rank  8 in SM  56: 202
 Rank  9 in SM  57 -> rank  9 in SM  57: 33
 
-Cluster size: 11 bytes...
+Cluster size: 11  ...
 Rank  0 in SM   0 -> rank  0 in SM   0: 33
 Rank  0 in SM   0 -> rank  1 in SM   1: 207
 Rank  0 in SM   0 -> rank  2 in SM  14: 205
@@ -527,7 +527,7 @@ Rank 10 in SM  70 -> rank  8 in SM  56: 190
 Rank 10 in SM  70 -> rank  9 in SM  57: 193
 Rank 10 in SM  70 -> rank 10 in SM  70: 33
 
-Cluster size: 12 bytes...
+Cluster size: 12  ...
 Rank  0 in SM   0 -> rank  0 in SM   0: 33
 Rank  0 in SM   0 -> rank  1 in SM   1: 207
 Rank  0 in SM   0 -> rank  2 in SM  14: 205
@@ -673,7 +673,7 @@ Rank 11 in SM  71 -> rank  9 in SM  57: 192
 Rank 11 in SM  71 -> rank 10 in SM  70: 180
 Rank 11 in SM  71 -> rank 11 in SM  71: 33
 
-Cluster size: 13 bytes...
+Cluster size: 13  ...
 Rank  0 in SM   0 -> rank  0 in SM   0: 33
 Rank  0 in SM   0 -> rank  1 in SM   1: 207
 Rank  0 in SM   0 -> rank  2 in SM  14: 205
@@ -844,7 +844,7 @@ Rank 12 in SM  84 -> rank 10 in SM  70: 184
 Rank 12 in SM  84 -> rank 11 in SM  71: 184
 Rank 12 in SM  84 -> rank 12 in SM  84: 33
 
-Cluster size: 14 bytes...
+Cluster size: 14  ...
 Rank  0 in SM   0 -> rank  0 in SM   0: 33
 Rank  0 in SM   0 -> rank  1 in SM   1: 207
 Rank  0 in SM   0 -> rank  2 in SM  14: 205
@@ -1042,7 +1042,7 @@ Rank 13 in SM  85 -> rank 11 in SM  71: 187
 Rank 13 in SM  85 -> rank 12 in SM  84: 190
 Rank 13 in SM  85 -> rank 13 in SM  85: 33
 
-Cluster size: 15 bytes...
+Cluster size: 15  ...
 Rank  0 in SM   2 -> rank  0 in SM   2: 33
 Rank  0 in SM   2 -> rank  1 in SM   3: 213
 Rank  0 in SM   2 -> rank  2 in SM  16: 209
@@ -1269,7 +1269,7 @@ Rank 14 in SM  98 -> rank 12 in SM  86: 188
 Rank 14 in SM  98 -> rank 13 in SM  87: 184
 Rank 14 in SM  98 -> rank 14 in SM  98: 33
 
-Cluster size: 16 bytes...
+Cluster size: 16  ...
 Rank  0 in SM   2 -> rank  0 in SM   2: 33
 Rank  0 in SM   2 -> rank  1 in SM   3: 213
 Rank  0 in SM   2 -> rank  2 in SM  16: 209
